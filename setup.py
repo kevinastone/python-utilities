@@ -15,7 +15,7 @@ except ImportError:
 	from distutils.core import setup
 
 # grab our readme generated rst for this project
-with open("readme.rst", "r") as _file:
+with open("README.rst", "r") as _file:
 
 	long_description = _file.read()
 
